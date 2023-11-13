@@ -1,0 +1,41 @@
+.banner {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url('../../img/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Anybody', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.box-texto {
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.box-texto h4 {
+    margin: 20px 0;
+}
+
+
+@media (max-width:550px) {
+    .banner {
+        height: 85vh;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .box-texto h1 {
+        width: 30%;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}

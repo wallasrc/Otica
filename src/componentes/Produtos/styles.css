@@ -1,0 +1,27 @@
+.produtos {
+    display: flex;
+    height: 125vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    margin-top: 20px;
+}
+.lista-produtos {
+    margin-top: 5px;
+
+}
+
+.lista-produtos li {
+    font-size: small;
+}
+
+@media(max-width:550px) {
+    .lista-produtos {
+        margin-top: 0;
+
+    }
+}
